@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+
+}
+
+/* body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../kaf_glav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.orawshi {
+    /* border: 5px solid red; */
+    width: 100vw;
+    height:100vh ;
+    background-image: url(../kaf_glav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  bottom;
+
+}
+
+.buldiraw {
+    width: 100vw;
+    height: 30vh;
+     /* background-color: gray */
+    position: absolute;
+    bottom: 0;
+    opacity: .5;
+    background-image: linear-gradient(to top, black, 50%, rgba(255,255,255, .5));
+     
+}
+
+p {
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+
+}
+
+.ati {
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 900;
+    /* position: absolute;
+    top: 30%; */
+}
+
+.text {
+    border: 3px solid black;
+    height: 100vh;
+    width: 60%;
+    /* padding: 10px; */
+}
+
+.familyasi {
+    /* position: absolute;
+    top: 43%; */
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+
+.haqqinda {
+
+    /* position: absolute;
+    top: 50%; */
+
+}
+
+.ishi {
+    border: 2px solid red;
+    height: auto;
+    margin-top: 30%;
+}
+
+.suwret {
+    border: 2px solid blue;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+    transition: .5s;
+}
+
+.joqariga, .tomenge {
+    width: 100px;
+}
+
+.joqariga {
+    transform: rotate(180deg);
+}
+
+.suwret img {
+    margin: 10px;
+}
+
+
+
+
